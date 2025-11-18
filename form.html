@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Survey Perokok</title>
+</head>
+<body>
+
+    <h1>Form Survey Perokok</h1>
+    
+    <form>
+
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="umur">Umur:</label><br>
+        <input type="number" id="umur" name="umur"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="laki" name="jk" value="Laki-laki">
+        <label for="laki">Laki-laki</label><br>
+
+        <input type="radio" id="perempuan" name="jk" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+
+        <label for="status">Apakah anda seorang perokok?</label><br>
+        <select id="status" name="status">
+            <option value="ya">Ya</option>
+            <option value="tidak">Tidak</option>
+        </select>
+        <br><br>
+
+        <label>Merk Rokok:</label><br>
+        <input type="checkbox" id="sampoerna" name="brand" value="Sampoerna">
+        <label for="sampoerna">Sampoerna</label><br>
+
+        <input type="checkbox" id="djarum" name="brand" value="Djarum">
+        <label for="djarum">Djarum</label><br>
+
+        <input type="checkbox" id="gg" name="brand" value="Gudang Garam">
+        <label for="gg">Gudang Garam</label><br>
+
+        <input type="checkbox" id="lufth" name="brand" value="LA">
+        <label for="lufth">LA</label><br><br>
+
+        <!-- Tombol Submit -->
+        <button type="submit">Kirim</button>
+        <a href="hasilSurvy.html">Tampilkan hasil survy</a>
+
+    </form>
+
+</body>
+</html>
+
